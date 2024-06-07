@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "taxfree-license-check-bot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.7.0"
+selenium = "^4.21.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+2captcha-python = "^1.2.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
