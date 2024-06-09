@@ -29,7 +29,7 @@ def get_carier_license(driver, car_number, file_path) -> dict:
             license_data = carier_license.extract_license_data()
             if license_data != {}:
                 return license_data
-            return {}
+        return {}
     except:
         return {}
 
